@@ -1,0 +1,124 @@
+<jacobmacias></jacobmacias>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--specifies the character encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this webpage will scale correctly to any device-->
+    <title>Final Project</title> <!--this title will appear in the browser-->
+    <style>
+        /*this css feature colors the entire background blue*/
+        body{
+            background-color: blue;
+        }
+        /*elements that cover table, table header, and table data*/
+        table, th, td{
+            margin-left: 500px; /*sets my table towards the center.  I started off close to the left changed my mind*/
+            margin-top: 110px; /*sets my table 110 pixels from the top*/
+            border: 1px solid red; /*my tables cells are dressed with a red border*/
+            padding: 5px; /*5 pixels worth of space between the wording and the table cells so its not tight within the cells..*/
+            background-color: bisque; /* I thought I'd go with the professors choice on his lecture example of the color bisque*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif; /*same with with style of font. I noticed it gave the font softer edges*/
+        }
+            
+ /*Nav bar including a ul (unordered list) so that the code doesnt fault due to the order*/          
+nav ul {
+    list-style-type: none; /* Removes the default list styling */
+    background-color: yellow; /* yellow background of the nav bar */
+    text-align: center; /*as it states... aligns the text in the center vs the far left*/
+}
+/*nav ul and list items*/
+nav ul li {
+    display: inline-block; /*creates a slim nav bar vs taking over the entire lower half of the page with yellow.  There isn't enough text for that*/
+}
+/*nav ul li and anchor tags that lead to my links*/
+nav ul li a {
+    display: block; /*Makes the entire area clickable*/
+    color: black; /*Font color*/
+    text-align: center;
+    padding: 14px 16px;   
+}
+ /*pseudo class that allows the link to change color once the user hovers over the link*/
+nav ul li a:hover {    
+        color:red; /*link changes to a red color once hovered over*/
+    }
+     </style>
+    <!--here we link our CSS with our HTML using our link element and attributes-->
+    <link rel="stylesheet"  type="text/css"  href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Final Project</h1>
+    </header>
+    <!--our table attribute and class that allows to link our CSS-->
+    <table id="tbl1" class="tableAlign"> 
+        <tr>     <!--defines the rows within the table.  I chose to make a small nutrition table of information I found online-->
+            <th>Item</th>  <!--th is used in the first row to define headings for the columns-->
+            <th>Serving</th><!--These next 4 items belong to the same row-->
+            <th>Protein</th>
+            <th>Net Carbs</th>
+            <th>Fats</th>
+        </tr>
+        <tr>
+            <td>Almonds</td> <!--td are used in subsequent rows to display data-->
+            <td>1/4 Cup</td>
+            <td>8g</td>
+            <td>4g</td>
+            <td>18g</td>
+
+        </tr>
+        <tr>
+            <td>Bacon Raw</td>
+            <td>2 Slices</td>
+            <td>6g</td>
+            <td>0g</td>
+            <td>6g</td>
+
+        </tr>
+        <tr>
+            <td>Cashews</td>
+            <td>1/4 Cup</td>
+            <td>5g</td>
+            <td>7g</td>
+            <td>13g</td>
+        </tr>
+        <tr>
+            <td>Chicken Breast raw</td>
+            <td>4oz</td>
+            <td>26g</td>
+            <td>0g</td>
+            <td>3g</td>
+        </tr>
+        <tr>
+            <td>Chicken Thighs Raw</td>
+            <td>4oz</td>
+            <td>22g</td>
+            <td>0g</td>
+            <td>5g</td>
+
+        </tr>
+    </table>
+    <!--Navigation bar with all of my projects.  I changed my game.html a bit and made the button blink so that it pops more-->
+    <nav>
+        <ul>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Assignment 1.1 The Foundation\index.html">Strings</a></li>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Assignment 1.1 The Foundation\boards.html">Boards</a></li>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Week 2\game.html">Game</a></li>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Week 3\palindrome.html.html">Palindrome</a></li>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Week 3\userInputValidation.html">userInputValidation</a></li>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Week 4\eventDriven.html">eventDriven</a></li>
+            <li><a href="c:\Users\jacob\OneDrive\Documents\Intro Programming\Workspace\Week 4\incorporateAudio.html">incorporateAudio</a></li>
+
+        </ul>
+    </nav>
+    
+</body>
+</html>
+<!--thank you for an awesome class Professor Battana!-->
+
+
+
+
+
+
+
